@@ -52,5 +52,8 @@ public class Humain {
 	
 	protected void perdreArgent(int perte) {
 		quantiteArgent -= perte;
+		if (quantiteArgent < 0) {
+			quantiteArgent = 0;
+		}
 	}
 }
