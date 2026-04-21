@@ -6,8 +6,8 @@ public class Traitre extends Samourai {
 	private static final int MAX_NIVEAU_POUR_RANCONNER = 3;
 	private int niveauTraitrise = 0;
 	
-	public Traitre(String seigneur, String nom, String boissonPrefere, int quantiteArgent) {
-		super(seigneur, nom, boissonPrefere, quantiteArgent);
+	public Traitre(String seigneur, String nom, String boissonPrefere, int argent) {
+		super(seigneur, nom, boissonPrefere, argent);
 	}
 
 	@Override
@@ -60,8 +60,9 @@ public class Traitre extends Samourai {
 	}
 	
 	private void diminuerNiveauTraitrise() {
-		if (niveauTraitrise >= 1) {
-			niveauTraitrise--;
+		niveauTraitrise--;
+		if (niveauTraitrise < 0) {
+			niveauTraitrise = 0;
 		}
 	}
  

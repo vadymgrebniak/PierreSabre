@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="UTBJAlYlQ7l69UR7EM4D">
+    <mxGraphModel dx="1488" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0o2Vx6fQKOzIyzqoYAMl-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Humain" vertex="1">
+          <mxGeometry height="340" width="220" x="70" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="0o2Vx6fQKOzIyzqoYAMl-2" parent="0o2Vx6fQKOzIyzqoYAMl-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;# nom: String&lt;/div&gt;&lt;div&gt;# boissonFavorite: String&lt;/div&gt;&lt;div&gt;# argent: Integer&lt;/div&gt;&lt;div&gt;# nbConnaissance:&amp;nbsp;Integer&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0o2Vx6fQKOzIyzqoYAMl-3" parent="0o2Vx6fQKOzIyzqoYAMl-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0o2Vx6fQKOzIyzqoYAMl-4" parent="0o2Vx6fQKOzIyzqoYAMl-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ Humain(nom: String, boissonPrefere: String,argent: Integer)&lt;/div&gt;&lt;div&gt;+ getNom(): String&lt;/div&gt;&lt;div&gt;+ getBoissonPrefere(): String&lt;/div&gt;&lt;div&gt;+ getArgent():&amp;nbsp;Integer&lt;/div&gt;&lt;div&gt;+ direBonjour()&lt;/div&gt;&lt;div&gt;+ boire()&lt;/div&gt;&lt;div&gt;+ acheter(bien: String, prix:&amp;nbsp;Integer)&lt;/div&gt;&lt;div&gt;+ faireConnaissance(humain: Humain)&lt;/div&gt;&lt;div&gt;+ listerConnaissance()&lt;/div&gt;&lt;div&gt;# parler(texte: String)&lt;/div&gt;&lt;div&gt;# gagnerArgent(gain:&amp;nbsp;Integer)&lt;/div&gt;&lt;div&gt;# perdreArgent(perte:&amp;nbsp;Integer)&lt;/div&gt;&lt;div&gt;- memoriser(humain: Humain)&lt;/div&gt;&lt;div&gt;- repondre(humain: Humain)&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="232" width="220" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="0o2Vx6fQKOzIyzqoYAMl-6" edge="1" parent="0o2Vx6fQKOzIyzqoYAMl-1" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.996;entryY=0.468;entryDx=0;entryDy=0;entryPerimeter=0;" target="0o2Vx6fQKOzIyzqoYAMl-2" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="-20" />
+              <mxPoint x="290" y="-20" />
+              <mxPoint x="290" y="60" />
+              <mxPoint x="250" y="61" />
+            </Array>
+            <mxPoint x="170" as="sourcePoint" />
+            <mxPoint x="260" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0o2Vx6fQKOzIyzqoYAMl-7" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# memoire" vertex="1">
+          <mxGeometry height="26" width="100" x="290" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="0o2Vx6fQKOzIyzqoYAMl-8" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="0..30" vertex="1">
+          <mxGeometry height="26" width="100" x="300" y="276" as="geometry" />
+        </mxCell>
+        <mxCell id="0o2Vx6fQKOzIyzqoYAMl-45" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Ronin" vertex="1">
+          <mxGeometry height="170" width="220" x="414" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="0o2Vx6fQKOzIyzqoYAMl-46" parent="0o2Vx6fQKOzIyzqoYAMl-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- honneur: Integer" vertex="1">
+          <mxGeometry height="26" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0o2Vx6fQKOzIyzqoYAMl-47" parent="0o2Vx6fQKOzIyzqoYAMl-45" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="0o2Vx6fQKOzIyzqoYAMl-48" parent="0o2Vx6fQKOzIyzqoYAMl-45" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ Ronin(nom: String, boissonPrefere: String, argent: Integer)&lt;/div&gt;&lt;div&gt;+ donner(beneficiaire: Commercant)&lt;/div&gt;&lt;div&gt;+ provoquer(adversaire: Yakuza)&lt;/div&gt;&lt;div&gt;- gagnerHonneur()&lt;/div&gt;&lt;div&gt;- perdreHonneur()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="220" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0o2Vx6fQKOzIyzqoYAMl-49" edge="1" parent="1" source="0o2Vx6fQKOzIyzqoYAMl-45" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="0o2Vx6fQKOzIyzqoYAMl-4" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="524" y="444" />
+            </Array>
+            <mxPoint x="300" y="580" as="sourcePoint" />
+            <mxPoint x="460" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0o2Vx6fQKOzIyzqoYAMl-50" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Samourai" vertex="1">
+          <mxGeometry height="130" width="240" x="404" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="0o2Vx6fQKOzIyzqoYAMl-51" parent="0o2Vx6fQKOzIyzqoYAMl-50" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- seigneur: String" vertex="1">
+          <mxGeometry height="24" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0o2Vx6fQKOzIyzqoYAMl-52" parent="0o2Vx6fQKOzIyzqoYAMl-50" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="240" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0o2Vx6fQKOzIyzqoYAMl-53" parent="0o2Vx6fQKOzIyzqoYAMl-50" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ Samourai(seigneur: String, nom: String, boissonPrefere: String, argent: Integer)&lt;/div&gt;&lt;div&gt;+ direBonjour()&lt;/div&gt;&lt;div&gt;+ boire(boisson: String)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="72" width="240" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="0o2Vx6fQKOzIyzqoYAMl-54" edge="1" parent="1" source="0o2Vx6fQKOzIyzqoYAMl-50" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="0o2Vx6fQKOzIyzqoYAMl-48" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="300" y="580" as="sourcePoint" />
+            <mxPoint x="460" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0o2Vx6fQKOzIyzqoYAMl-55" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Traitre" vertex="1">
+          <mxGeometry height="190" width="270" x="389" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="0o2Vx6fQKOzIyzqoYAMl-56" parent="0o2Vx6fQKOzIyzqoYAMl-55" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- MAX_NIVEAU_POUR_RANCONNER: Integer&lt;/div&gt;&lt;div&gt;- niveauTraitrise: Integer&lt;/div&gt;" vertex="1">
+          <mxGeometry height="44" width="270" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0o2Vx6fQKOzIyzqoYAMl-57" parent="0o2Vx6fQKOzIyzqoYAMl-55" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="270" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0o2Vx6fQKOzIyzqoYAMl-58" parent="0o2Vx6fQKOzIyzqoYAMl-55" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ Traitre(seigneur: String, nom: String, boissonPrefere: String, argent: Integer)&lt;/div&gt;&lt;div&gt;+ direBonjour()&lt;/div&gt;&lt;div&gt;+ ranconner(commercant: Commercant)&lt;/div&gt;&lt;div&gt;+ faireLeGentil()&lt;/div&gt;&lt;div&gt;- augmenterNiveauTraitrise()&lt;/div&gt;&lt;div&gt;- diminuerNiveauTraitrise()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="112" width="270" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="0o2Vx6fQKOzIyzqoYAMl-59" edge="1" parent="1" source="0o2Vx6fQKOzIyzqoYAMl-55" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="0o2Vx6fQKOzIyzqoYAMl-53" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="610" y="960" as="sourcePoint" />
+            <mxPoint x="540" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
